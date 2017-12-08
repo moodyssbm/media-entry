@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>VHSLive Tool</title>
+        <link rel="stylesheet" type="text/css" href="./css/main.css"/>
+    </head>
+    <body>
+        <h1>VHSLive Tool</h1>
+        <form>
+            <p>
+                <input type="text" id="tapeName" value="Tape Name">
+            </p>
+            <p>
+                <select id="format">
+                    <option value="Other">--FORMAT--</option>
+                    <option value="VHS">VHS</option>
+                    <option value="BetaMax">BetaMax</option>
+                    <option value="LaserDisc">LaserDisc</option>
+                    <option value="VCD">VCD</option>
+                    <option value="DVD">DVD</option>
+                    <option value="Blu-ray">Blu-ray</option>
+                    <option value="Other">Other</option>
+                </select>
+            </p>
+            <p>
+                Horror?
+                <input type="checkbox" id="isHorror">
+            </p>
+            <p>
+                Christmas?
+                <input type="checkbox" id="isXmas">
+            </p>
+            <p>
+                <input type="button" value="Add" onclick="addMovie()">
+            </p>
+        </form>
+
+        <script src="./js/main.js"></script>
+    </body>
+</html>

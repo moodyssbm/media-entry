@@ -1,0 +1,26 @@
+{
+  "name": "media-entry",
+  "version": "1.0.0",
+  "description": "Electron util for entering VHSLive's Media Library",
+  "main": "app.js",
+  "scripts": {
+    "test": "electron app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n/a.git"
+  },
+  "keywords": [
+    "Electron"
+  ],
+  "author": "Ethan Moody",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/n/a/issues"
+  },
+  "homepage": "https://github.com/n/a#readme",
+  "dependencies": {
+    "electron": "^1.7.9",
+    "request": "^2.83.0"
+  }
+}
